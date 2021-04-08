@@ -16068,4 +16068,25 @@ h3 {
   margin-left: 22%;
 }
 
+.bg {
+  background-image: url("../img/book-bg.jpg");
+}
+
+@media screen and (max-width: 767px) {
+  .section1 {
+    font-size: 9px;
+  }
+
+  .carte {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 767px) and (max-width: 1023px) {
+  .carte .section1 {
+    font-size: 15px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
