@@ -16046,13 +16046,26 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.date {
+  position: absolute;
+}
+
+.image {
+  position: relative;
+}
+
 .text {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  flex-direction: row;
-  padding: auto;
-  margin-left: 50%;
+  position: absolute;
+  padding-left: 50%;
+  padding-top: 47%;
+  margin-left: 26%;
+}
+
+.text1 {
+  position: absolute;
+  padding-left: 50%;
+  padding-top: 47%;
+  margin-left: 22%;
 }
 
 /*# sourceMappingURL=app.css.map */
