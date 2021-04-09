@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "CrimsonText";
+  src: url("../font/CrimsonText/CrimsonText-Regular.ttf");
+}
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -16049,6 +16053,9 @@ h3 {
 .date {
   position: absolute;
 }
+.date h5 {
+  padding: 20px 20px 20px 20px;
+}
 
 .image {
   position: relative;
@@ -16056,16 +16063,32 @@ h3 {
 
 .text {
   position: absolute;
-  padding-left: 50%;
-  padding-top: 47%;
-  margin-left: 26%;
+  padding-left: 30%;
+  padding-top: 36%;
+  margin-left: 36%;
+}
+.text h5 {
+  padding: 10px 10px 10px 10px;
 }
 
 .text1 {
   position: absolute;
   padding-left: 50%;
-  padding-top: 47%;
-  margin-left: 22%;
+  padding-top: 37%;
+  margin-left: 11%;
+}
+.text1 h5 {
+  padding: 10px 10px 10px 10px;
+}
+
+.text2 {
+  position: absolute;
+  padding-left: 50%;
+  padding-top: 37%;
+  margin-left: 13%;
+}
+.text2 h5 {
+  padding: 10px 10px 10px 10px;
 }
 
 .bg {
@@ -16078,6 +16101,14 @@ h3 {
 .bg .formulaire {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.sing {
+  background-image: url("../img/signup-bg.jpg");
+  height: 300px;
+}
+.sing form {
+  margin-bottom: 15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -16098,9 +16129,8 @@ h3 {
   body .bg .formulaire h1 {
     font-size: 20px !important;
   }
-  body footer {
-    display: flex !important;
-    flex-direction: column !important;
+  body .image2 {
+    width: 200px !important;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 767px) and (max-width: 1023px) {
@@ -16109,6 +16139,16 @@ h3 {
   }
   body .formulaire {
     max-width: 300px !important;
+  }
+  body .image2 {
+    width: 400px !important;
+  }
+  body .image-card2 {
+    height: 150px !important;
+    padding: 0 !important;
+  }
+  body .sing {
+    height: 200px;
   }
 }
 
