@@ -16070,22 +16070,45 @@ h3 {
 
 .bg {
   background-image: url("../img/book-bg.jpg");
+  height: 500px;
+}
+.bg h4 {
+  margin-top: 15%;
+}
+.bg .formulaire {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 767px) {
-  .section1 {
-    font-size: 9px;
+  body {
+    font-size: 9px !important;
   }
-
-  .carte {
+  body .carte {
     display: flex;
     justify-content: center;
     padding-top: 5%;
   }
+  body .bg {
+    height: 940px;
+  }
+  body .bg .formulaire {
+    max-width: 250px !important;
+  }
+  body .bg .formulaire h1 {
+    font-size: 20px !important;
+  }
+  body footer {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }
 @media screen and (max-width: 767px) and (min-width: 767px) and (max-width: 1023px) {
-  .carte .section1 {
+  body .section1 {
     font-size: 15px;
+  }
+  body .formulaire {
+    max-width: 300px !important;
   }
 }
 
