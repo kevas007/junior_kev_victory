@@ -16093,7 +16093,8 @@ h3 {
 
 .bg {
   background-image: url("../img/book-bg.jpg");
-  height: 500px;
+  height: 700px;
+  background-size: cover;
 }
 .bg h4 {
   margin-top: 15%;
@@ -16105,10 +16106,12 @@ h3 {
 
 .sing {
   background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
   height: 300px;
 }
 .sing form {
   margin-bottom: 15%;
+  margin-left: 15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -16155,6 +16158,9 @@ h3 {
     height: 150px !important;
     padding: 0 !important;
   }
+}
+body {
+  font-family: "CrimsonText-Regular";
 }
 
 /*# sourceMappingURL=app.css.map */
