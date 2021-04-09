@@ -16115,6 +16115,9 @@ h3 {
   body {
     font-size: 9px !important;
   }
+  body .section1 {
+    font-size: 8px !important;
+  }
   body .carte {
     display: flex;
     justify-content: center;
@@ -16132,8 +16135,12 @@ h3 {
   body .image2 {
     width: 200px !important;
   }
+  body .image2 .date h5 {
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+  }
 }
-@media screen and (max-width: 767px) and (min-width: 767px) and (max-width: 1023px) {
+@media screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
   body .section1 {
     font-size: 15px;
   }
@@ -16142,13 +16149,11 @@ h3 {
   }
   body .image2 {
     width: 400px !important;
+    margin: 0 auto;
   }
   body .image-card2 {
     height: 150px !important;
     padding: 0 !important;
-  }
-  body .sing {
-    height: 200px;
   }
 }
 
