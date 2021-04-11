@@ -16057,10 +16057,6 @@ h3 {
   padding: 20px 20px 20px 20px;
 }
 
-.image {
-  position: relative;
-}
-
 .text {
   position: absolute;
   padding-left: 30%;
@@ -16091,13 +16087,22 @@ h3 {
   padding: 10px 10px 10px 10px;
 }
 
+.card1 {
+  margin-top: 70px;
+}
+
+.carde2 {
+  margin-bottom: 25px;
+}
+
 .bg {
   background-image: url("../img/book-bg.jpg");
-  height: 700px;
+  height: 600px;
+  width: 100%;
   background-size: cover;
 }
 .bg h4 {
-  margin-top: 15%;
+  margin-top: 70px;
 }
 .bg .formulaire {
   margin-top: 5%;
@@ -16110,8 +16115,7 @@ h3 {
   height: 300px;
 }
 .sing form {
-  margin-bottom: 15%;
-  margin-left: 15%;
+  margin-bottom: 25%;
 }
 
 @media screen and (max-width: 767px) {
@@ -16145,7 +16149,8 @@ h3 {
 }
 @media screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
   body .section1 {
-    font-size: 15px;
+    font-size: 5px !important;
+    width: 500px;
   }
   body .formulaire {
     max-width: 300px !important;
